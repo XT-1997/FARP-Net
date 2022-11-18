@@ -34,6 +34,6 @@ sh tools/slurm_train.sh $PARTION $JOB_NAME configs/configs/A2FRPG/A2FRPG_8x8_sca
 ### for test the pretrained weight
 ```shell
 sh tools/slurm_test.sh $PARTION $JOB_NAME configs/A2FRPG/A2FRPG_16x8_sunrgbd-3d-10class.py $PRETRAINED_CKPT --eval mAP --work-dir $WORK_DIR
-'''
+```
 
 ## Main Results
