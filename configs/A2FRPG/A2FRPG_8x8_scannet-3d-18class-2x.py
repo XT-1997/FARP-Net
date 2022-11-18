@@ -28,6 +28,16 @@ model = dict(
         iou_loss=dict(
             type='AxisAlignedIoULoss', reduction='sum', loss_weight=10.0 /
             3.0),
+        vote_aggregation_cfg=dict(
+                type='Local_to_global_reason',
+                pool_mod='max',
+                num_point=256,
+                radius=0.3,
+                num_sample=16,
+                mlp_channels=[256, 128, 128, 128],
+                group_norm=True,
+                use_xyz=True,
+                normalize_xyz=True),
         bbox_coder=dict(
             type='PartialBinBasedBBoxCoder',
             num_sizes=18,
