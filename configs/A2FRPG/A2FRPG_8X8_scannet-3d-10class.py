@@ -11,7 +11,6 @@ model = dict(
         num_points=(2048, 1024, 512, 256),
         radius=(0.2, 0.4, 0.8, 1.2),
         num_samples=(64, 32, 16, 16),
-        fps_mod_list=[['D-FPS'], ['F-FPS'], ['F-FPS'], ['F-FPS']],
         sa_channels=((64, 64, 128), (128, 128, 256), (128, 128, 256),
                      (128, 128, 256)),
         fp_channels=((256, 256), (256, 256)),
