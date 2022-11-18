@@ -8,8 +8,8 @@ The code is tested with Python3.7, PyTorch == 1.10, CUDA == 11.3, mmdet3d == 1.0
 
 **Step 1.** Create a conda environment and activate it.
 ```
-conda create --name demf python=3.7
-conda activate demf
+conda create --name pt1.10.v1 python=3.7
+conda activate pt1.10.v1
 ```
 
 **Step 2.** Install [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) following the instruction [here](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/getting_started.md).
