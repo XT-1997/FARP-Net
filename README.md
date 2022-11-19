@@ -47,4 +47,4 @@ sh tools/slurm_test.sh $PARTION $JOB_NAME configs/A2FRPG/A2FRPG_16x8_sunrgbd-3d-
 | name      | Lr schd | backbone | mAP@0.25 | Download |
 |-----------|---------|----------|---------|----------|
 | A2FRPGNet | 3x      | 1x    | 69.1   | [model](https://drive.google.com/file/d/11Vj1Zq5jD-oUZQgesNnNRePdWR34WdvW/view?usp=sharing) \| [log](https://drive.google.com/file/d/1IuQx13g0XPT0Rytv5Gg725rL6jY2fio2/view?usp=sharing)     |
-| A2FRPGNet | 3x      | 2x     | 71.1    | [model](https://drive.google.com/file/d/1rAXetejETb4Og3kggC55y78zYmjAGwdC/view?usp=sharing) \| [log](https://drive.google.com/file/d/1ocrebuZ0kbV49DTFQiMVZjoP2DDYJV1E/view?usp=sharing)     |
+| A2FRPGNet | 3x      | 2x     | 70.9    | [model](https://drive.google.com/file/d/1rAXetejETb4Og3kggC55y78zYmjAGwdC/view?usp=sharing) \| [log](https://drive.google.com/file/d/1ocrebuZ0kbV49DTFQiMVZjoP2DDYJV1E/view?usp=sharing)     |
