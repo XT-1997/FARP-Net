@@ -41,4 +41,10 @@ sh tools/slurm_test.sh $PARTION $JOB_NAME configs/A2FRPG/A2FRPG_16x8_sunrgbd-3d-
 ### SUNRGB-D
 | name      | Lr schd | mAP@0.25 | mAP@0.5 | Download |
 |-----------|---------|----------|---------|----------|
-| A2FRPGNet |         | 64.1     | 55.7    | [model](https://drive.google.com/file/d/14SYx_D2YV0sWWjJpxmP-NdQ-82bQTFIp/view?usp=sharing)\|[log](https://drive.google.com/file/d/16DN1kH4llMfLtUpXuTb3DUIVPwnTnjaO/view?usp=sharing)     |
+| A2FRPGNet |         | 64.1     | 55.7    | [model](https://drive.google.com/file/d/14SYx_D2YV0sWWjJpxmP-NdQ-82bQTFIp/view?usp=sharing) \| [log](https://drive.google.com/file/d/16DN1kH4llMfLtUpXuTb3DUIVPwnTnjaO/view?usp=sharing)     |
+
+### ScanNet
+| name      | Lr schd | mAP@0.25 | mAP@0.5 | Download |
+|-----------|---------|----------|---------|----------|
+| A2FRPGNet | 1x      | 69.1     | 49.3    | [model](https://drive.google.com/file/d/11Vj1Zq5jD-oUZQgesNnNRePdWR34WdvW/view?usp=sharing) \| [log](https://drive.google.com/file/d/1IuQx13g0XPT0Rytv5Gg725rL6jY2fio2/view?usp=sharing)     |
+| A2FRPGNet | 2x      | 71.1     | 51.3    | [model](https://drive.google.com/file/d/1rAXetejETb4Og3kggC55y78zYmjAGwdC/view?usp=sharing) \| [log](https://drive.google.com/file/d/1ocrebuZ0kbV49DTFQiMVZjoP2DDYJV1E/view?usp=sharing)     |
