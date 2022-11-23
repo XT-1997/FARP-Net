@@ -1,6 +1,6 @@
-# Learning Local-to-global Feature Reason on Points and Weighted Relation-Aware Proposal Generation for 3D Detection
+# FARP-Net: Local-Global Feature Aggregation and Relation-Aware Proposals for 3D Object Detection
 
-This is a [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) implementation of the paper "Learning Local-to-global Feature Reason on Points and Weighted Relation-Aware Proposal Generation for 3D Detection". 
+This is a [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) implementation of the paper "FARP-Net: Local-Global Feature Aggregation and Relation-Aware Proposals for 3D Object Detection". 
 
 ## Prerequisites
 The code is tested with Python3.7, PyTorch == 1.10, CUDA == 11.3, mmdet3d == 1.0.0rc2, mmcv_full == 1.5.0 and mmdet == 2.24.1. We recommend you to use anaconda to make sure that all dependencies are in place. Note that different versions of the library may cause changes in results.
