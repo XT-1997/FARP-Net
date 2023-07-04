@@ -49,4 +49,16 @@ sh tools/slurm_test.sh $PARTION $JOB_NAME configs/A2FRPG/A2FRPG_16x8_sunrgbd-3d-
 | A2FRPGNet | 3x      | 1x    | 69.1   | [model](https://drive.google.com/file/d/11Vj1Zq5jD-oUZQgesNnNRePdWR34WdvW/view?usp=sharing) \| [log](https://drive.google.com/file/d/1IuQx13g0XPT0Rytv5Gg725rL6jY2fio2/view?usp=sharing)     |
 | A2FRPGNet | 3x      | 2x     | 70.9    | [model](https://drive.google.com/file/d/1rAXetejETb4Og3kggC55y78zYmjAGwdC/view?usp=sharing) \| [log](https://drive.google.com/file/d/1ocrebuZ0kbV49DTFQiMVZjoP2DDYJV1E/view?usp=sharing)     |
 
-## The KITTI results will come soon !
+## Bibtex
+If this repo is helpful for you, please consider to cite it. Thank you! :)
+
+```bibtex
+@article{xie2023farp,
+  title={FARP-Net: Local-Global Feature Aggregation and Relation-Aware Proposals for 3D Object Detection},
+  author={Xie, Tao and Wang, Li and Wang, Ke and Li, Ruifeng and Zhang, Xinyu and Zhang, Haoming and Yang, Linqi and Liu, Huaping and Li, Jun},
+  journal={IEEE Transactions on Multimedia},
+  year={2023},
+  publisher={IEEE}
+}
+```
+
