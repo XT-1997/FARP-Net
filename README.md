@@ -1,4 +1,4 @@
-# FARP-Net: Local-Global Feature Aggregation and Relation-Aware Proposals for 3D Object Detection
+# TMM2023-FARP-Net: Local-Global Feature Aggregation and Relation-Aware Proposals for 3D Object Detection
 
 This is a [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) implementation of the paper "FARP-Net: Local-Global Feature Aggregation and Relation-Aware Proposals for 3D Object Detection". 
 
